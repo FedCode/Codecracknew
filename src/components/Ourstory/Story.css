@@ -1,0 +1,145 @@
+.lef-Image {
+    background: linear-gradient(180deg, #D9D9FD 0%, #F1F1FF 100%);
+    border-radius: 35px;
+    padding: 0 4.8rem 6rem;
+}
+.section-spacing {
+    padding: 80px 0;
+    
+}
+.circle-card img {
+    display: block;
+    margin: 0 auto;
+}
+.right-content-card.text-left {
+    text-align: left;
+    padding: 1rem;
+}
+.story-title {
+    background: #C5C9FB;
+    max-width: 231px;
+    text-align: left;
+    padding: 10px 48px;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #3039AC;
+    font-weight: 500;
+    position: relative;
+}
+.story-title:before {
+    content: "";
+    position: absolute;
+    background: #3039AC;
+    height: 9px;
+    width: 9px;
+    border-radius: 100%;
+    left: 29px;
+    top: 20px;
+}
+.right-content-card h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+}
+.title-margin {
+    margin: 2.3rem 0;
+
+}
+
+
+.right-content-card ul li {
+    font-size: 18px;
+    color: var(--dark);
+    margin-bottom: 1.8rem;
+    font-weight: 500;
+    display: block;
+}
+
+.right-content-card.text-left ul li img {margin-right: 1rem;width: 26px;}
+.right-content-card.text-left ul {padding: 0;}
+.right-content-card.text-left ul {
+    border-bottom: 1px #14141433 solid;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    display: block;
+}
+.learn-more-btn {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: var(--primary);
+    font-weight: 600;
+}
+a.learn-more-btn svg {
+    margin-left: 0.8rem;
+}
+
+.app-box {
+    background: #fff;
+    border-radius: 0px 0px  25px 25px;
+    box-shadow: 6px 6px 17px 0px #444FF21A;
+    padding: 1rem 0;
+}
+.app-developed h5, .hundered-box h5 {
+    font-size: 16px;
+    line-height: 27px;
+    text-align: left;
+    font-weight: 400;
+}
+.app-developed h4, .hundered-box h4 {
+    margin-bottom: 0;
+    text-align: left;
+    font-weight: 700;
+}
+.app-developed {
+    padding: 0 1.5rem;
+}
+.website-box {
+    background: #fff;
+    box-shadow: 0px 6px 14px 0px #444FF21A;
+    border-radius: 24px;
+    padding: 1rem 0.4rem 0.4rem;
+    text-align: left;
+    margin-top: 5rem;
+}
+.hundered-box img {
+    width: 100%;
+}
+.experience-box {
+    background: #fff;
+    border-radius: 24px;
+    box-shadow: 0px 10px 22px 0px #444FF21A;
+    padding: 1.5rem 1rem;
+    max-width: 91%;
+    margin-top: 1.5rem;
+}
+.user-text {
+    text-align: left;
+}
+.user-text h4 {
+    color: var(--primary);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+    line-height: 31px;
+}  
+.user-text h5 {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.user-text {
+    text-align: left;
+    width: 80%;
+}
+.user-img {
+    margin-right: 1.1rem;
+}
+.img-box {
+    width: 135px;
+    height: 135px;
+    background: var(--primary);
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto 1.5rem;
+}

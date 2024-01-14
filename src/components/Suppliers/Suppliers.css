@@ -1,0 +1,79 @@
+.image-card-inline {
+    display: flex;
+    position: relative;
+}
+.black-box {
+    background: #212121;
+    border-radius: 24px;
+    padding: 1.5rem 1.5rem;
+    height: 254px;
+}
+.card-content {
+    display: flex;
+}
+.percentage-text {
+    text-align: left;
+    color: #fff;
+}
+.percentage-text h5 {
+    font-size: 12px;
+    font-weight: 300;
+}
+.percentage-text h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.card-content span {
+    margin-right: 0.7rem;
+}
+
+.lef-Image.pad-y {
+    padding: 4rem 4.8rem 4rem;
+}
+.websites {
+    width: 36%;
+    position: relative;
+    right: -68px;
+}   
+.websites .experience-box.d-flex {
+    margin: -49px;
+    position: relative;
+    z-index: 1;
+    width: calc(100% + 50px);
+    max-width: inherit;
+    left: 0%;
+}
+.right-imcrad {
+    /* margin-left: 17rem; */
+    margin-top: -111px;
+    width: 29%;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+.websites .user-text h5 {
+    font-size: 13px;
+  
+}
+.websites .user-text h4 {
+     font-size: 15px;
+  }
+  .websites .user-img img {
+    width: 90%;
+}
+.websites .user-img {
+    margin-right: 0.6rem;
+}
+.websites .experience-box.d-flex {
+    align-items: center;
+}
+.websites .experience-box.d-flex {
+    margin: -49px;
+    position: relative;
+    z-index: 1;
+    width: calc(100% + 30px);
+    max-width: inherit;
+    left: 0%;
+    border-radius: 18px;
+    padding: 0.7rem 0.5rem;
+}

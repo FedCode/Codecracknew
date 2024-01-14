@@ -1,0 +1,5 @@
+.right-content-card.text-left.inner-flex {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}

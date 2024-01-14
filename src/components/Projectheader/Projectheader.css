@@ -1,0 +1,22 @@
+.banner-heading.dark-color {
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.banner-title.mx-500 p {
+    color: #141414;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.mx-500 {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width:767px)  {
+    .banner-heading.dark-color {
+        font-size: 33px;
+       line-height:43px;
+       margin-bottom: 1rem;
+    }  
+}

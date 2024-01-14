@@ -1,0 +1,49 @@
+.custom-col {
+    width: 20%;
+}
+.rowinlineflex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+.custom-col img {
+    width: 100%;
+    height: auto;
+}
+.custom-col .two {
+    padding-top: 7rem;
+}
+.custom-col .five {
+    padding-top: 15rem;
+}
+@media only screen and (max-width:576px)  {
+.title-h3 {
+font-size: 28px;
+font-weight: 600;
+}
+.custom-col {
+width: 33.333%;
+padding: 7px;
+}
+.rowinlineflex {
+flex-wrap: wrap;
+}
+.custom-col .two {
+padding-top: 0;
+}
+.custom-col .five {
+padding-top: 0;
+}
+}
+@media only screen and (max-width:767px)  {
+    .custom-col .two {
+        padding-top: 3rem;
+    }
+    .custom-col .five {
+        padding-top: 5rem;
+    }
+    .section-header p {
+        font-size: 15px;
+    }
+}

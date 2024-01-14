@@ -1,0 +1,17 @@
+.text-left.card-body {
+    text-align: left;
+}
+.Hero-component h1 {
+    font-size: 75px;
+    font-weight: 800;
+    line-height:97px;
+}
+.Hero-component h5 {
+    max-width: 95%;
+    font-size: 1.4rem;
+    line-height: 35px;
+}
+.hero-content.card-body {
+    padding-right: 1rem;
+    padding-top: 7rem !important;
+}

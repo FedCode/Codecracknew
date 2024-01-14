@@ -1,0 +1,37 @@
+
+  .grey-bg{background-color: var( --grey);}
+  .half-container{
+    background: var(--white);
+    padding: 1rem;
+    border-radius: 15px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.half-container h4 {
+    margin-bottom: 0;
+}
+.h4-title {
+    text-align: left;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.half-container.container {
+    background: var(--white);
+    padding: 2rem 3.5rem;
+    border-radius: 20px;
+    max-width: 960px;
+    margin: 0 auto;
+    border: 1px solid #E8E8E8;
+    box-shadow: 0px 8px 17px 0px #0000000D;
+}
+.bo-right {
+    border-right: 1px solid #14141457;
+}
+.client-image {
+    text-align: right;
+    display: block;
+}
+.custom-row.row {
+    align-items: center;
+}

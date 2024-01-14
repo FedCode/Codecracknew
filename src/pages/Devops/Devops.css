@@ -1,0 +1,12 @@
+.mx-800 {
+    max-width: 800px;
+}
+a.menu-link.primary-link-btn.w-auto.my-2 {
+    display: inline-block;
+}
+
+.card-header.flex-columns {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

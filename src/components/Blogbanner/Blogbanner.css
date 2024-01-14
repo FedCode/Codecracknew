@@ -1,0 +1,58 @@
+.blog-banner-component{
+    position: relative;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0;
+}
+
+.blog-banner-component:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.323437) 35.94%, rgba(0, 0, 0, 0.711) 69.79%, rgba(0, 0, 0, 0.9) 100%);
+    top: 0;
+}
+.blog-content {
+    position: absolute;
+    bottom: 50px;
+    z-index: 1;
+    max-width: 90%;
+}
+.blog-content h1 {
+    
+    color: #fff;
+    font-size: 44px;
+}
+.blog-content p {
+    max-width: 90%;
+    color: #fff;
+}
+.blog-content p {
+    margin-bottom: 0.6rem;
+}
+@media only screen and  (max-width:767px) {
+.blog-content h1 {
+    color: #fff;
+    font-size: 29px;
+    line-height: 37px;
+}
+.blog-banner-component{
+    position: relative;
+    height: 400px;
+}
+}
+@media only screen and (min-width:992px) and (max-width:1199.9px) {
+    .heading-2 {font-size: 23px;}
+    .blog-category {font-size: 19px;}
+    .heading-5 {font-size: 16px;}
+    
+ }
+ @media only screen and (min-width:1200px) and (max-width:1399.9px) {
+ .blog-card.b-0 > h2 {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+ }

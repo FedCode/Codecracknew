@@ -1,0 +1,27 @@
+.mx-900 {max-width: 900px;}
+.section-header p {color: rgba(20, 20, 20, 1);font-size: 18px;}
+.container-bgcolor {background: linear-gradient(180deg, #828AF6 0%, rgba(130, 138, 246, 0.44) 100%);border-radius: 48px 8px 48px 8px;padding: 3rem 0;margin-top: 11rem;height: 320px;}
+
+.image-card img {height: 440px;}
+.custom-margin.row {margin-top: -440px;}
+.custom-margin.row h4 {font-size: 19px;color: rgba(20, 20, 20, 1);margin-bottom: 0;}
+.custom-margin.row p {font-size: 15px;}
+.image-card {margin-bottom: 1rem;}
+.image-card img {width: auto;}
+
+@media only screen and (max-width:576px)  {
+.image-card img {height: 182px;}
+.section-header p {font-size: 15px;}
+    }
+    @media only screen and (max-width:767px)  {
+        section.ourmission-component {
+            padding: 35px 15px;
+        }
+    }
+    @media only screen and (max-width:1199px)  {
+        .title-h3 {font-size: 35px;font-weight: 700;margin-bottom: 1rem;}
+
+    }
+@media only screen and (min-width:1200px)  {
+    .title-h3 {font-size: 55px;font-weight: 700;line-height: 81px;letter-spacing: 0em;text-align: center;margin-bottom: 1rem;}
+}

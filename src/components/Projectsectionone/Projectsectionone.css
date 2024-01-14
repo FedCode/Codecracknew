@@ -1,0 +1,14 @@
+.projectSectionone {
+    background: var(--grey);
+}
+@media only screen and (max-width:767px)  {
+    .section-image img {
+        width: 50%;
+        margin: 0 auto 1rem;
+        display: block;
+    }
+    .section-content {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}

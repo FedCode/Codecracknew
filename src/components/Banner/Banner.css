@@ -1,0 +1,39 @@
+section.banner-component {
+    padding: 3rem 0;
+    height: 480px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.banner-text {
+    color: rgba(255, 255, 255, 1);
+    font-size: 64px;
+    max-width: 60%;
+    font-weight: 700;
+}
+.banner-container.container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.text-left.hero-content.text-center.padingtop.card-body {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+@media screen and (max-width:767px) {
+h1.banner-text{font-size: 25px;max-width: 90%;font-weight: 600;}
+section.banner-component {height: 173px;background-size: cover;background-position: center;padding: 3rem 0;}
+
+}
+@media only screen and (min-width:768px) and (max-width:991.9px) {
+    section.banner-component {height: 280px;background-size: cover;}
+h1.banner-text{font-size: 42px;max-width:75%;}
+}
+@media only screen and (min-width:992px) and (max-width:1199.9px) {
+h1.banner-text{font-size:40px;max-width: 70%;}
+section.banner-component { height: 340px;}
+
+ }
+ @media only screen and (min-width:1200px) and (max-width:1399px) {
+h1.banner-text{font-size: 54px;}
+section.banner-component { height: 450px;}
+ }

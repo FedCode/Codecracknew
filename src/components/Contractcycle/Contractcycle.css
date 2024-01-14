@@ -1,0 +1,56 @@
+.right-content-card.text-left ul li h4 {
+    color: #141414;
+    font-size: 18px;
+    font-weight: 550;
+}
+.right-content-card.text-left li p {
+    font-size: 1rem;
+    font-weight: 400;
+    max-width: 90%;
+}
+.our-contract.ourstroy-component.section-spacing ul li {
+    margin-bottom: 1.8rem;
+}
+.our-contract .title-margin {
+    margin-top: 0;
+}
+.lef-Image.video-card {
+    padding: 1rem 1rem 0;
+}
+.video-box h5 {
+    font-size: 13px;
+}
+.video-box .experience-box.d-flex {
+    width: calc(100% + 26%);
+    z-index: 1;
+    position: relative;
+    margin-top: 4.5rem;
+    max-width: initial;
+    padding: 0.6rem;
+}
+.experience-box.d-flex .user-text {
+
+    width: 90%;
+}
+.text-black{color: var(--dark);}
+h4.text-black img {
+    margin-right: 0.5rem;
+}
+.ml-4 {
+    margin-left: 5rem !important;
+}
+.image-size.bottom-img img {
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    max-width: 122%;
+    position: relative;
+    left: -40px;
+}
+.pl-0{
+    padding-left: 0;
+}
+.section-spacing .main-tittle {
+    font-size: 45px;
+    line-height: 60px;
+}

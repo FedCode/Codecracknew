@@ -1,0 +1,28 @@
+.servicebanner-component img.card-img-top {width: auto;}
+a.primary-link-btn.lgbtn.w-100.big-btn {width: 100%;display: inline-block;text-align: center;height: 67px;font-size: 19px;}
+.servicebanner-component img.card-img-top {width: 100%;}
+.Hero-component.servicebanner-component .hero-content.card-body {padding-right: 1rem;padding-top: 0 !important;}
+.text-left.title-h4 {font-size: 24px;font-weight: 650;margin-bottom: 0.7rem;}
+.title-h2 {font-size: 60px;font-weight: 700;margin-bottom: 2rem;}
+.blog-card.padd-left {
+    padding-left: 2.5rem;
+}
+
+@media only screen and (min-width:992px) and (max-width:1300px) {
+.title-h2 {font-size: 50px;}
+.Hero-component.servicebanner-component h1 {font-size: 64px;line-height: 81px;}
+.Hero-component.servicebanner-component .hero-content.card-body {padding-right: 1rem;padding-top: 1rem !important;}
+}
+
+@media only screen and (max-width:991px) {
+    .title-h2 {font-size:29px;}
+    .text-left.title-h4 {
+        font-size: 19px;
+       
+ }
+   
+ .blog-card.accordian-head h2 {
+    font-size: 36px !important;
+    line-height: 46px;
+}
+    }

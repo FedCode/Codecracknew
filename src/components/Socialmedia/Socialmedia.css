@@ -1,0 +1,86 @@
+.black-box.social-media {
+    display: flex;
+    align-items: end;
+    width: 55%;
+    position: relative;
+    z-index: 1;
+}
+.websites.socialmedia-card .website-box {
+    margin-top: 3.5rem;
+    position: relative;
+    z-index: 11;
+    padding: 0 .3rem 0.3rem;
+    border-radius: 14px;
+}
+.websites.socialmedia-card {
+    width: 27%;
+    right: -30px;
+}
+.right-imcrad.bottom-card {
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+}
+.right-imcrad.bottom-card .experience-box {
+    padding: 1rem;
+    border-radius: 17px;
+    
+}
+.lef-Image.pad-y.pad-top {
+    padding: 1rem 4.5rem;
+}
+.right-imcrad.bottom-card .website-box {
+    margin-top: -45px;
+    position: relative;
+    top: -89px;
+}
+.websites.socialmedia-card .website-box > img {
+    width: 28px;
+}
+ul.list-inline li {
+    display: inline-block;
+}
+.w-100 {
+    max-width: 100%;
+}
+.media-icons {
+    width: 66%;
+}
+ul.list-inline {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.experience-box .media-icons ul.list-inline li {
+    display: inline-block;
+    margin-right: 0.5rem;
+    margin-bottom: 0;
+}
+.experience-box.top-media {
+    padding: 1rem;
+}
+.experience-box.top-media h5 {
+    font-size: 13px;
+}
+.experience-box.top-media {
+    padding: 1rem;
+    max-width: 97%;
+    margin-left: 8%;
+    position: relative;
+    z-index: 11;
+    bottom: -21px;
+}
+.section-spacing-top {
+    padding-bottom: 100px;
+}
+ul.list-inline li a {
+    display: flex;
+}
+@media only screen and (min-width:1200px) and (max-width:1399.9px) {
+    ul.list-inline li a img {
+        width: 40px;
+    } 
+    .experience-box.top-media h5 {
+        font-size: 12px;
+    }
+}

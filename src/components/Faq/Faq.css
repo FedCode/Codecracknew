@@ -1,0 +1,32 @@
+.bg-darkgrey {
+    background: #F0ECF8;
+}
+button.accordion-button {
+    border-radius: 24px !important;
+    box-shadow: 0px 8px 17px 0px #0000000D;
+    padding: 1.9rem 1rem;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+.accordion-item {
+    margin-bottom: 2.5rem;
+    border: 0;
+    background-color: inherit;
+}
+
+.align-midd {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+@media only screen and (min-width:992px) and (max-width:1199.9px) {
+.accordion-item {
+    margin-bottom: 1rem;
+   
+}
+.blog-card.b-0 > h2 {
+    font-size: 48px;
+}
+
+}
