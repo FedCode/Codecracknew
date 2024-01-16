@@ -18,12 +18,12 @@ const Blogdetails = () =>{
     return(
        <div className='blog-page-wrapper'>
          <Header></Header>
-          <div className='Singleblogpage'>
+          <div className='Singleblogpage section-spacing'>
                <Container> 
                   
                   <Row>
                      <Col md={12}>
-                        <div className='detail-header'>
+                        <div className='detail-header mb-5'>
                             <div className='blog-toitle'>
                               <h3>Breaking into Product Design: Insights from Codecrack Founder</h3>
                               <Link><img src={process.env.PUBLIC_URL+"/images/share-icons.svg"} alt=""/></Link>
@@ -39,7 +39,7 @@ const Blogdetails = () =>{
                         </div>
                      </Col>
                      <Col md={7} className='mx-auto'>
-                        <div className='detail-content'>
+                        <div className='detail-content my-5'>
                              <p>Lorem ipsum dolor sit amet consectetur. Est massa id quam tortor quam blandit sit dui. Diam pulvinar 
                                 ligula augue massa.
                                  Pellentesque nisi pretium egestas tempor sit porttitor pellentesque massa.</p>

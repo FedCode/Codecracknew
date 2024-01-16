@@ -325,7 +325,7 @@ export const projectSectiondata = [
     heading:"Experience a new era in online retailing, crafted through a collaboration of diverse minds.",
     paragraph:"Our site boasts personalized features, tailoring the shopping experience to individual preferences. With real-time inventory updates, seamless transactions, and interactive product experiences, we revolutionize online shopping, making it an effortless delight for every user",
     linktext:"Case study",
-    linkUrl:""
+    linkUrl:"/blog"
   }
 
 ]
@@ -337,7 +337,7 @@ export const projectSectionthreedata = [
     heading:"Experience a new era in online retailing, crafted through a collaboration of diverse minds.",
     paragraph:"Our site boasts personalized features, tailoring the shopping experience to individual preferences. With real-time inventory updates, seamless transactions, and interactive product experiences, we revolutionize online shopping, making it an effortless delight for every user",
     linktext:"Case study",
-    linkUrl:""
+    linkUrl:"/blog"
   }
 
 ]
@@ -349,7 +349,7 @@ export const projectSectiononedata = [
     heading:"Experience a new era in online retailing, crafted through a collaboration of diverse minds.",
     paragraph:"Our site boasts personalized features, tailoring the shopping experience to individual preferences. With real-time inventory updates, seamless transactions, and interactive product experiences, we revolutionize online shopping, making it an effortless delight for every user",
     linktext:"Case study",
-    linkUrl:""
+    linkUrl:"/blog"
   }
 
 ]
@@ -359,7 +359,7 @@ export const blogHeader = [
     
     heading:"Insights",
     linktext:"See all Insights",
-    linkUrl:""
+    linkUrl:"/blog"
    
   }
 

@@ -3,6 +3,9 @@
     padding: 0;
     margin-right: 0;
 }
+.mega-menu-bg.bg-prime-color img {
+    width: 100%;
+}
 .menu-link, .dropdown-toggle.nav-link {
     font-size: 1rem;
     text-decoration: none;

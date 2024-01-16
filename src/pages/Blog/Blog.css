@@ -1,3 +1,31 @@
 .blog-page-wrapper .order2 {
     order: 2;
 }
+.blog-toitle h3 {
+    font-size: 48px;
+    font-weight: 500;
+}
+.blog-toitle {
+    display: flex;
+    align-items: baseline;
+}
+.detail-content h4 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.detail-content ol li {
+    color: rgba(68, 80, 242, 1);
+    margin-bottom: 0.6rem;
+}
+
+@media (max-width:1399px){
+    .blog-toitle h3 {
+        font-size:36px;
+        
+    } 
+}
+@media (max-width:991.99px){
+    .blog-toitle h3 {
+        font-size:30px;
+    }
+}
