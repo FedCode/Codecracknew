@@ -11,7 +11,7 @@ const Footer = () =>{
             <Container>
                 <Row>
                     <Col xs={12} md={6} className="text-left">
-                    <Link href="#home"><img className="footer-logo" src={process.env.PUBLIC_URL+"/images/footer-logo.png"} alt="logo" /></Link>
+                    <Link to="/" className="footer-log-inline"><img className="footer-logo" src={process.env.PUBLIC_URL+"/images/footer-logo.png"} alt="logo" /></Link>
                     </Col>
                     <Col xs={12} md={6}>
                       <Row className="inner-row">

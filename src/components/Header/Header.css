@@ -106,6 +106,10 @@ nav.bg-body-white.py-3.bg-grey.navbar.navbar-expand-lg.navbar-light {
 }
 
 @media (max-width:991.99px){
+    .footer-component a.footer-log-inline {
+        width: 200px;
+        display: inline-block;
+    }
     .dropdown-menu.show {
         border-top: 1px solid rgba(232, 232, 232, 1);
         border-radius: 15px;

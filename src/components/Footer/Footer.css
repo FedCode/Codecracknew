@@ -2,7 +2,13 @@
     background: #ECEEFE;
     padding: 4rem 0;
 }
-
+a.footer-log-inline img {
+    width: 100%;
+}
+a.footer-log-inline {
+    width: 300px;
+    display: inline-block;
+}
 .list-group .list-group-item {
     background-color: inherit;
     border: 0;
